@@ -1,6 +1,7 @@
 <!doctype html>
 <html>
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
     <title>Home Page</title>
     <link rel="shortcut icon" href="./Sections/Banner.png" type="image/x-icon">
@@ -10,7 +11,12 @@
       type="text/css"
     />
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+    <style>
+     html, body{
+        overflow-x: hidden;
+        width: 100%;
+      }
+    </style>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
 
@@ -44,12 +50,12 @@
 <!---hero-sec-->
 <section class="w-full flex items-center justify-center aspect-[1600/674] bg-cover bg-center" style="background-image: url('./assets/hero-bg.png');">
   <div>
-   <p class="text-center"> <span class="bg-white p-3 text-green-600 px-12 rounded-full text-center">Early Access Now Open</span></p>
-    <h1 class="text-center my-3 font-semibold text-[4.5rem] text-white">Structured Thinking,<br> 
+   <p class="text-center my-5 md:my-0"> <span class="bg-white md:p-3 text-green-600 p-2 md:px-12 rounded-full text-center">Early Access Now Open</span></p>
+    <h1 class="text-center my-3 font-semibold text-[2rem] md:text-[4.5rem] text-white">Structured Thinking,<br> 
       <span class="text-green-600">Not Just Note-Taking.</span></h1>
-      <p class="text-white">A private space to store notes, links, and learning summaries — designed to <br>
+      <p class="text-white px-3 md:px-0">A private space to store notes, links, and learning summaries — designed to <br>
 help you think clearly, connect ideas, and turn learning into long-term knowledge.</p>
-<div class="flex items-center justify-self-center gap-3 my-3">
+<div class="flex flex-col md:flex-row items-center justify-self-center gap-3 my-3">
   <button class="btn btn-success text-white">Start Building Your Vault</button>
     <button class="btn btn-neutral btn-outline border-white text-white">See How It Works</button>
 </div>
@@ -62,12 +68,12 @@ help you think clearly, connect ideas, and turn learning into long-term knowledg
 <section class="mx-auto mt-[5rem]">
   <!--Bookmark-sec-->
 <div>
-  <h1 class="text-center text-[3rem] font-semibold">Notes Don't Fail, Structure Does.</h1>
+  <h1 class="text-center text-[1.5rem] md:text-[3rem] font-semibold">Notes Don't Fail, Structure Does.</h1>
   <p class="text-center">You're not bad at learning. Your tools just weren't built for how knowledge actually works.</p>
 </div>
 
 <div class="mx-[5%]">
-  <div class="flex my-8 justify-between"> 
+  <div class="flex flex-col md:flex-row my-8 justify-between"> 
   <!--Bookmark-Card-->
   <div class="shadow-sm p-3 text-center">
 <p><img class="bg-red-400 mx-auto p-2 rounded-full" src="./assets/Vector.png" alt=""></p>
@@ -97,13 +103,13 @@ you learned</h2>
 
 <section class="mt-[5rem]">
   <!--Knowlwdge-sec-->
-  <div class="mx-[5%] flex justify-center gap-12">
+  <div class="mx-[5%] flex flex-col md:flex-row justify-center gap-12">
 <div class="w-full md:w-1/2 h-full md:min-h-[300px] bg-cover bg-center aspect-[600/600]" style="background-image: url('./assets/knowledge.png');">
 
 </div>
 <div>
 <p>THE SOLUTION</p>
-<h1 class="text-[3rem] font-semibold my-5">Your second brain, <br>
+<h1 class="text-[1.5rem] md:text-[3rem] font-semibold my-5">Your second brain, <br>
 structured by design.</h1>
 <p class="my-20">Personal Knowledge Vault isn't another note-taking app. <br> It's a thinking environment where every note, link, and summary <br> becomes part of an interconnected web of understanding.</p>
 
@@ -120,7 +126,7 @@ structured by design.</h1>
 <section class="mt-[5rem] bg-[#F7F6F2] mx-[5%]">
   <!--ready section-->
 <div class="flex flex-col justify-center items-center p-[3rem]">
-  <h1 class="text-[3rem] font-semibold">Ready To More clearly</h1>
+  <h1 class="text-[1.5rem] md:text-[3rem] font-semibold">Ready To More clearly</h1>
 <p class="text-center py-3">Join thousands of learners who are building their personal knowledge vaults. <br> Start free, no credit card required.</p>    
  <a class="btn my-2 bg-green-600 text-white">Get Early Access</a>
  <p>Free during early access • No credit card needed</p>
